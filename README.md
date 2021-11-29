@@ -24,6 +24,17 @@ A CSL file  for zotero users in IOPEN
 
 # ❗❗❗ 注意 多数情况下从浏览器、bib文件等自动导入的是没有多大问题的，但以下情况需要注意
 
+## 作者姓名栏 
+一般导入的没有问题 
+
+但还是要检查一下是否是 姓 名
+
+删除国外 middle name
+
+比如以下是导入时出现了姓和名颠倒
+
+![image](https://user-images.githubusercontent.com/95218127/143862171-41af692e-6170-4cd8-a64a-63bd9f833a3e.png)
+
 ## 期刊文章
 检查 `期刊` 是否正确；`页码` `年份` 等缺的自己补齐。
 
