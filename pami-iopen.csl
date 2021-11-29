@@ -7,6 +7,10 @@
       <name>Mengxing Yang</name>
       <email>mrstranger@mail.nwpu.edu.cn</email>
     </author>
+    <contributor>
+      <name>Haotong Du</name>
+      <email>duhaotong@mail.nwpu.edu.cn</email>
+    </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>
     <category field="generic-base"/>
@@ -182,7 +186,9 @@
           </if>
         </choose>
       </if>
-      <else-if match="any" variable="DOI"/>
+      <else-if match="any" variable="DOI">
+        <text variable="DOI" prefix="DOI: "/>
+      </else-if>
       <else>
         <group delimiter=". ">
           <group delimiter=": ">
@@ -204,19 +210,22 @@
   </macro>
   <macro name="page">
     <choose>
-      <if type="article-journal" variable="number" match="all">
-        <group delimiter=" ">
-          <text value="Art."/>
-          <text term="issue" form="short"/>
-          <text variable="number"/>
-        </group>
+      <if type="article-journal">
+        <choose>
+          <if variable="issue">
+            <group delimiter=" ">
+              <label variable="page" form="short"/>
+              <text variable="page"/>
+            </group>
+          </if>
+        </choose>
       </if>
-      <else>
+      <else-if type="chapter paper-conference" match="any">
         <group delimiter=" ">
           <label variable="page" form="short"/>
           <text variable="page"/>
         </group>
-      </else>
+      </else-if>
     </choose>
   </macro>
   <macro name="citation-locator">
@@ -252,8 +261,16 @@
           <group>
             <choose>
               <if variable="page">
-                <text variable="container-title" font-style="italic" suffix=", "/>
-                <text macro="locators" suffix=", "/>
+                <choose>
+                  <if variable="issue">
+                    <text variable="container-title" font-style="italic" suffix=", "/>
+                    <text macro="locators" suffix=", "/>
+                  </if>
+                  <else>
+                    <text variable="container-title" font-style="italic" suffix=", "/>
+                    <text macro="access" suffix=", "/>
+                  </else>
+                </choose>
               </if>
               <else>
                 <text term="arXiv" font-style="italic" suffix=", "/>
