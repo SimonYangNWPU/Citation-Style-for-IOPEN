@@ -6,7 +6,8 @@ A CSL file  for zotero users in IOPEN
 
 # 安装zotero以及word插件
 请自行网上寻找教程。
-例如 https://zhuanlan.zhihu.com/p/164842311
+例如 https://blog.csdn.net/weixin_43545225/article/details/112060356
+其他方便好用的插件： https://www.modb.pro/db/156380
 
 # 导入pami-iopen.csl文件
 在 zotero -> 编辑 -> 首选项 -> 引用 -> 样式 -> 点击“+” 之后 导入pami-iopen.csl
