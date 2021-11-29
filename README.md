@@ -57,6 +57,20 @@ A CSL file  for zotero users in IOPEN
 
 ![image](https://user-images.githubusercontent.com/95218127/143860042-832c78cb-8525-48af-964f-73871ae7c468.png)
 
+## Tips 从word中复制到PPT 
+你复制过来可能是这样子的，第一行Tab占了很大空位，第二行不与第一行对齐。
+
+![image](https://user-images.githubusercontent.com/95218127/143885266-bfdcd7d8-f774-4ee4-9e73-200be03fe76d.png)
+
+进行如下调整：全选 -> 右键 -> 段落
+
+调整缩进如下：（PPT的缩进原理请参考 https://www.sohu.com/a/212169357_743104 ，一般设置在1cm~1.5cm）
+![image](https://user-images.githubusercontent.com/95218127/143885919-b9f1d429-87d5-4207-b42e-ccf64d5d05a9.png)
+
+当当当当，处理完毕：
+![image](https://user-images.githubusercontent.com/95218127/143886019-17186120-1ac8-4328-8b90-c450268d3da4.png)
+
+
 
 如果有问题建议，欢迎及时反馈。
 
