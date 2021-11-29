@@ -1,6 +1,16 @@
 # Citation-Style-for-IOPEN
 A CSL file  for zotero users in IOPEN
-
+- [前言](#前言)
+- [安装zotero以及word插件](#安装zotero以及word插件)
+- [导入pami-iopen.csl文件](#导入pami-iopencsl文件)
+- [如何使用zotero管理文献](#如何使用zotero管理文献)
+- [在word当中导入](#在word当中导入)
+- [注意 检查以下属性](#注意-多数情况下从浏览器bib文件等自动导入的是没有多大问题的但以下情况需要注意)
+  - [作者姓名栏](#作者姓名栏)
+  - [期刊文章](#期刊文章)
+  - [会议文章](#会议文章)
+  - [arXiv文章](#arxiv文章)
+- [Tips（从word中复制到PPT）](#tips-从word中复制到ppt)
 # 前言
 这是一份引用格式配置文档（csl文件），你可以把它导入到Zotero、Mendeley等文献管理软件中，从而方便管理和自动格式化你的word中参考文献格式（PPT需要从word当中复制过去）
 
@@ -25,10 +35,10 @@ A CSL file  for zotero users in IOPEN
 # 在word当中导入
 参考 https://zhuanlan.zhihu.com/p/164842311
 
-# ❗❗❗ 注意 多数情况下从浏览器、bib文件等自动导入的是没有多大问题的，但以下情况需要注意
+# 注意 多数情况下从浏览器、bib文件等自动导入的是没有多大问题的，但以下情况需要注意
 
-## 作者姓名栏 
-一般导入的没有问题 
+## 作者姓名栏
+一般导入的没有问题
 
 但还是要检查一下是否是 姓 名
 
@@ -43,21 +53,21 @@ A CSL file  for zotero users in IOPEN
 
 ![image](https://user-images.githubusercontent.com/95218127/143857158-141a8d69-c20f-41ae-a54f-69bb8f00b981.png)
 
-## ❗❗会议文章
+## 会议文章
 检查 `投递标题` 是否正确：Proceedings of the 这种删掉；缩写删掉；前面带有年份的删掉
 
 `页码` `年份` 等缺的自己补齐。
 
 ![image](https://user-images.githubusercontent.com/95218127/143858378-ea9b0857-8cea-4039-97f9-83d11c0996c8.png)
 
-## ❗❗arXiv文章
+## arXiv文章
 把`期刊`中的 `arXiv:****` 拷贝到`其它`；
 
 `页码` 保持空白，不要修改。
 
 ![image](https://user-images.githubusercontent.com/95218127/143860042-832c78cb-8525-48af-964f-73871ae7c468.png)
 
-## Tips 从word中复制到PPT 
+# Tips 从word中复制到PPT
 你复制过来可能是这样子的，第一行Tab占了很大空位，第二行不与第一行对齐。
 
 ![image](https://user-images.githubusercontent.com/95218127/143885266-bfdcd7d8-f774-4ee4-9e73-200be03fe76d.png)
