@@ -1,15 +1,15 @@
 # Citation-Style-for-IOPEN
 
 # 再前言
-2022年版本：不需要复杂配置zotero就能生成Word文献引用。
+2022年版本大更新！！！：不需要复杂配置zotero就能生成Word文献引用了。
 
 第一步：安装Pandoc https://pandoc.org/installing.html；
+
 第二步：整理文献的bibtex（从谷歌学术等拷贝出来）到文件夹下面的“mybib.bib”；
+
 第三步: 运行 `python.exe parse_bib.py`；
+
 第四步：打开 `citation.docx` 就能看到完整格式的参考文献啦。（还需要改一下字体为"PL"格式）。
-
-
-
 
 
 A CSL file  for zotero users in IOPEN
