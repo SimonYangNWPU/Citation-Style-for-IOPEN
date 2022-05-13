@@ -11,10 +11,13 @@
 
 第四步：打开 `citation.docx` 就能看到完整格式的参考文献啦。（还需要改一下字体为"PL"格式）。
 
+---------------------------------------
 
-A CSL file  for zotero users in IOPEN
+
+# A CSL file  for zotero users in IOPEN
 - [Citation-Style-for-IOPEN](#citation-style-for-iopen)
 - [再前言](#再前言)
+- [A CSL file  for zotero users in IOPEN](#a-csl-file--for-zotero-users-in-iopen)
 - [前言](#前言)
 - [安装zotero以及word插件](#安装zotero以及word插件)
 - [导入pami-iopen.csl文件](#导入pami-iopencsl文件)
