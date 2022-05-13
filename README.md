@@ -1,16 +1,33 @@
 # Citation-Style-for-IOPEN
+
+# 再前言
+2022年版本：不需要复杂配置zotero就能生成Word文献引用。
+
+第一步：安装Pandoc https://pandoc.org/installing.html；
+第二步：整理文献的bibtex（从谷歌学术等拷贝出来）到文件夹下面的“mybib.bib”；
+第三步: 运行 `python.exe parse_bib.py`；
+第四步：打开 `citation.docx` 就能看到完整格式的参考文献啦。（还需要改一下字体为"PL"格式）。
+
+
+
+
+
 A CSL file  for zotero users in IOPEN
+- [Citation-Style-for-IOPEN](#citation-style-for-iopen)
+- [再前言](#再前言)
 - [前言](#前言)
 - [安装zotero以及word插件](#安装zotero以及word插件)
 - [导入pami-iopen.csl文件](#导入pami-iopencsl文件)
 - [如何使用zotero管理文献](#如何使用zotero管理文献)
 - [在word当中导入](#在word当中导入)
-- [❗❗❗ 注意 检查以下属性](#注意-多数情况下从浏览器bib文件等自动导入的是没有多大问题的但以下情况需要注意)
+- [注意 多数情况下从浏览器、bib文件等自动导入的是没有多大问题的，但以下情况需要注意](#注意-多数情况下从浏览器bib文件等自动导入的是没有多大问题的但以下情况需要注意)
   - [作者姓名栏](#作者姓名栏)
   - [期刊文章](#期刊文章)
-  - [❗❗ 会议文章](#会议文章)
-  - [❗❗❗ arXiv文章](#arxiv文章)
-- [Tips（从word中复制到PPT）](#tips-从word中复制到ppt)
+  - [会议文章](#会议文章)
+  - [arXiv文章](#arxiv文章)
+- [Tips 从word中复制到PPT](#tips-从word中复制到ppt)
+
+
 # 前言
 这是一份引用格式配置文档（csl文件），你可以把它导入到Zotero、Mendeley等文献管理软件中，从而方便管理和自动格式化你的word中参考文献格式（PPT需要从word当中复制过去）
 
