@@ -2,7 +2,9 @@
 
 # 再前言
 2022年版本大更新！！！：不需要复杂配置zotero就能生成Word文献引用了。
+适用于绝大部分的期刊、CV会议和arxiv 
 
+# 方案一（便携方案）
 第一步：安装Pandoc https://pandoc.org/installing.html
         下载安装包之后，一路默认即可。
 
@@ -18,7 +20,7 @@
 
 ---------------------------------------
 
-
+# 方案二 （适用于有使用Zotero和Mendeley文献管理软件习惯的）
 # A CSL file  for zotero users in IOPEN
 - [Citation-Style-for-IOPEN](#citation-style-for-iopen)
 - [再前言](#再前言)
