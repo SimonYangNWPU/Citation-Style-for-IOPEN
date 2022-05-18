@@ -3,9 +3,12 @@
 # 再前言
 2022年版本大更新！！！：不需要复杂配置zotero就能生成Word文献引用了。
 
-第一步：安装Pandoc https://pandoc.org/installing.html；
+第一步：安装Pandoc https://pandoc.org/installing.html
+        下载安装包之后，一路默认即可。
 
 第二步：整理文献的bibtex（从谷歌学术等拷贝出来）到文件夹下面的“mybib.bib”；
+![image](https://user-images.githubusercontent.com/95218127/143860524-3d04fbd5-94f7-48b5-a441-89a2561c28bb.png)
+![image](https://user-images.githubusercontent.com/95218127/143860564-cbb061cc-8173-4319-94be-299a841b4071.png)
 
 第三步: 运行 `python.exe parse_bib.py`；
 
